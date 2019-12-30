@@ -77,6 +77,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="falseButton" destination="tbn-vQ-GyC" id="KpZ-Ry-t6X"/>
+                        <outlet property="progressBar" destination="TXm-qh-7Xg" id="mQf-e0-TYd"/>
+                        <outlet property="questionLabel" destination="rSI-li-mhO" id="smK-V8-tJe"/>
+                        <outlet property="trueButton" destination="oVw-Hl-IRe" id="1Un-pE-U73"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
